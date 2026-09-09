@@ -1,0 +1,23 @@
+# --------------------------------------------
+# Whitelist Mode: Only Allow Specific Files
+# --------------------------------------------
+
+# Ignore everything by default
+*
+
+# --------------------------------------------
+# Allow specific project files
+# --------------------------------------------
+!app.py
+!black_scholes.py
+!visualizations.py
+!style.css
+!README.md
+!requirements.txt
+!.gitignore
+
+# --------------------------------------------
+# Allow specific directories (and files inside)
+# --------------------------------------------
+!.streamlit/
+!.streamlit/config.toml
